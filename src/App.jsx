@@ -4,6 +4,7 @@ import Food from './Food.jsx'
 import Card from './Card.jsx'
 import Button from './Button/Button.jsx'
 import Students from './Students.jsx'
+import Greeting from './Greeting.jsx'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <student name="Cristiano Ronaldo" age={40}> isStudent={false}</student>
       <student name="Jimmy Donaldson" age={25}> isStudent={true}</student>
       <student name="Celine Dept" age={28}> isStudent={false}</student>
+      <Greeting name='Arnold Trent' age={28}></Greeting>
       <Card></Card>
       <Card></Card>
       <Card></Card>

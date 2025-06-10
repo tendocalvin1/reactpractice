@@ -1,6 +1,7 @@
 // props = read-only properties that are shared between components
 //         A parent component can send data to a child component
 //         <component key=value />
+// NB: props is a shortform for Properties
 
 function Students(props){
     return(

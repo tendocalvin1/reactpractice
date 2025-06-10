@@ -1,7 +1,7 @@
-import Styles from './Button.Module.css'
+import styles from './Button.Module.css'
 
 function Button(){
-    return (<button className={Styles.button}>Click me</button>);
+    return (<button className={styles.button}>Click me</button>);
 }
 
 export default Button
