@@ -27,3 +27,13 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(0, 0%, 40%);
 }
+
+.Button{
+  background-color: rgb(200, 100%, 50%);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  
+}
