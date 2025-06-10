@@ -37,3 +37,14 @@
   cursor: pointer;
   
 }
+
+.Students{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 2px rgba(22, 50%, 50%, 0.80);
+}
+
+.students p{
+  margin: 0;
+}
