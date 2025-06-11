@@ -10,7 +10,13 @@ function Lists(){
 
 // Fruits.sort((a,b)=>a.name.localeCompare(b.name));  // Alphabetical Order
 // Fruits.sort((a,b)=>b.name.localeCompare(a.name));  // Reverse Alphabetical Order.
+// Fruits.sort((a,b)=>a.calories - b.calories);  // Numeric Orders
+Fruits.sort((a,b)=>b.calories - a.calories);   // Reverse Numeric Orders
+const ListItems = Fruits.map(fruit =>  <li key={fruit.id}>
+                                        {fruit.name}: &nbsp;
+                                        <b>{fruit.calories}</b></li>)
 
+return (<ol>{ListItems}</ol>)
 }
 
 export default Lists
