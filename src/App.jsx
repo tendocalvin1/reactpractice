@@ -6,6 +6,7 @@ import Button from './Button/Button.jsx'
 import Students from './Students.jsx'
 import Greeting from './Greeting.jsx'
 import UserGreeting from './UserGreeting.jsx'
+import Lists from './RenderLists.jsx'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <student name="Lionel Messi"></student>
       <Greeting name='Arnold Trent' age={28}></Greeting>
       <UserGreeting isLoggedIn={true} username="Tendo"></UserGreeting>
+      <List></List>
       <Card></Card>
       <Card></Card>
       <Card></Card>
